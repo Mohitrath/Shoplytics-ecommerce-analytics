@@ -1,0 +1,1 @@
+const Database=require("better-sqlite3"); const db=new Database(process.env.DB_FILE||"./data/shoplytics.db"); console.log("Shoplytics database is created by server.js on first start."); db.close();
